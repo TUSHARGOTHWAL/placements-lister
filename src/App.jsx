@@ -14,7 +14,7 @@ const App = () => {
     <div className="app-container">
       <header className="app-header">
         
-        <h1>MSITIANS PLACEMENTS BOARD</h1>
+        <h1>MSITIANS PLACEMENTS BOARD 🗿</h1>
         <button onClick={toggleForm} className="toggle-button">
           {showForm ? 'View Placements' : 'Add Placement'}
         </button>
@@ -22,7 +22,7 @@ const App = () => {
       {showForm ? <Lister /> : <PlacementList />}
 
       <footer className="app-footer">
-        <p>made by love from <a href='https://www.instagram.com/gothwaltushar03/'>gothwaltushar03</a></p>
+        <p>made by love from 💖 <a href='https://www.instagram.com/gothwaltushar03/'>gothwaltushar03</a></p>
       </footer>
     </div>
   );
