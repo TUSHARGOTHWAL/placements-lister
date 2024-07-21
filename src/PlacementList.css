@@ -1,0 +1,72 @@
+.placement-list-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures content doesn't overflow the container */
+}
+
+.placement-cards {
+    display: flex;
+    flex-direction: column; /* Display cards in normal order */
+    gap: 20px;
+    justify-content: center; /* Centers cards horizontally */
+    align-items: center; /* Centers cards vertically */
+}
+
+.placement-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 600px;
+    box-sizing: border-box;
+    transition: transform 0.2s ease-in-out;
+    white-space: pre-wrap; /* Preserves whitespace and line breaks */
+}
+
+.placement-card:hover {
+    transform: translateY(-5px);
+}
+
+.placement-card h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.placement-card p {
+    margin: 10px 0;
+    white-space: pre-wrap; /* Preserves whitespace and line breaks */
+}
+
+.placement-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.placement-link:hover {
+    background: #0056b3;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .placement-list-container {
+        padding: 15px;
+    }
+
+    .placement-card {
+        width: 100%;
+    }
+}

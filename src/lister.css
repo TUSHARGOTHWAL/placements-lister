@@ -1,0 +1,107 @@
+/* Placement Form Container */
+.placement-form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9; /* Consistent background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form Header */
+  .placement-form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Consistent text color */
+  }
+  
+  /* Input and Button Styles */
+  .input-field, .textarea-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .textarea-field {
+    height: 100px; /* Adjust as needed */
+    resize: vertical;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .submit-button:hover {
+    background: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  /* Placement List Styles */
+  .placement-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .placement-item {
+    padding: 15px;
+    margin: 10px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .placement-item h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #333; /* Consistent text color */
+  }
+  
+  .placement-item p {
+    margin: 5px 0;
+  }
+  
+  .placement-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold; /* Better visibility */
+  }
+  
+  .placement-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .placement-form-container {
+      padding: 15px;
+    }
+  
+    .input-field, .textarea-field, .submit-button {
+      padding: 8px;
+    }
+  
+    .placement-item {
+      padding: 10px;
+    }
+  
+    .placement-item h3 {
+      font-size: 18px;
+    }
+  }
+  
