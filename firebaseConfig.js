@@ -3,13 +3,12 @@ import { getFirestore, collection, getDocs, addDoc } from 'firebase/firestore';
 import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB3iMbGMJJ2t_XJvgoNt0vpSRXZydBOF5E",
-  authDomain: "placement-lister.firebaseapp.com",
-  projectId: "placement-lister",
-  storageBucket: "placement-lister.appspot.com",
-  messagingSenderId: "436544903378",
-  appId: "1:436544903378:web:57275639ef9d59f29a750b",
-  measurementId: "G-J3NJG4FKY4"
+  apiKey: "AIzaSyAGeoX6JymG2e62GGsZK7uGujAHFFqDQkw",
+  authDomain: "placement-lister-3a50c.firebaseapp.com",
+  projectId: "placement-lister-3a50c",
+  storageBucket: "placement-lister-3a50c.appspot.com",
+  messagingSenderId: "220977921509",
+  appId: "1:220977921509:web:b552fedb46a176bc72030c"
 };
 
 const app = initializeApp(firebaseConfig);
